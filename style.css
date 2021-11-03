@@ -1,0 +1,80 @@
+*{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    background-image: url(img/landing-page.jpeg);
+    background-position: 25% 25%;
+    height: 100%;
+    -webkit-filter: opacity(40%);
+    -moz-filter: opacity(40%);
+    -o-filter: opacity(40%);
+    -ms-filter: opacity(40%);
+    filter: opacity(40%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#landing-page{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+#landing-page ul{
+    text-align: left;
+    display: inline-table;
+    margin-left:3%;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.nav-bar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    list-style-type: none;
+    align-items: baseline;
+    align-self: center;
+    /* justify-content: space-around; */
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 20px;
+
+    background-color: #ddd;
+}
+.nav-bar a{
+    color: red;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+}
+#wrapper{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+#description-wrapper{
+    background-color: thistle;
+    align-self: center;
+}
+
+#description-wrapper p{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#lasagna-content{
+    width: 90%;
+    margin: auto;
+}
