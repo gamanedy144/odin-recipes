@@ -54,27 +54,27 @@
     background-color: #ddd;
 }
 .nav-bar a{
-    color: red;
     position: absolute;
     right: 20px;
     top: 35px;
 }
-#wrapper{
+.wrapper{
     padding-top: 8px;
     padding-bottom: 8px;
     display: flex;
     justify-content: space-around;
 }
-#description-wrapper{
-    background-color: thistle;
+.description-wrapper{
+
     align-self: center;
 }
 
-#description-wrapper p{
+.description-wrapper p{
     padding-top: 8px;
     padding-bottom: 8px;
 }
-#lasagna-content{
+.content{
     width: 90%;
     margin: auto;
+    padding-bottom: 50px;
 }
